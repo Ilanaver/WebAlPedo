@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo de Fútbol Escolar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Torneo de Fútbol Escolar</h1>
+        <p>Eliminatoria Directa - 30 Equipos</p>
+    </header>
+    <main>
+        <section id="bracket-section">
+            <h2>Eliminatorias</h2>
+            <div id="bracket">
+                <div id="left-octavos" class="bracket-column">
+                    <h3>Octavos</h3>
+                    <!-- Partidos de octavos -->
+                </div>
+                <div id="left-cuartos" class="bracket-column">
+                    <h3>Cuartos</h3>
+                    <!-- Partidos de cuartos -->
+                </div>
+                <div id="left-semis" class="bracket-column">
+                    <h3>Semis</h3>
+                    <!-- Partidos de semis -->
+                </div>
+                <div id="final" class="bracket-column">
+                    <h3>Final</h3>
+                    <div class="match" id="final-match">
+                        <!-- Partido final -->
+                    </div>
+                    <div id="champion">
+                        <div id="champion-team">
+                            <img src = "Campeon-removebg-preview.png" alt="Campeón">
+                            <p>Equipo Campeón: Info B</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-semis" class="bracket-column">
+                    <h3>Semis</h3>
+                    <!-- Partidos de semis -->
+                </div>
+                <div id="right-cuartos" class="bracket-column">
+                    <h3>Cuartos</h3>
+                    <!-- Partidos de cuartos -->
+                </div>
+                <div id="right-octavos" class="bracket-column">
+                    <h3>Octavos</h3>
+                    <!-- Partidos de octavos -->
+                </div>
+            </div>
+        </section>
+        <section id="info">
+            <h2>Información del Torneo</h2>
+            <p>Los partidos se juegan todos los miércoles en la cancha principal de la escuela.</p>
+        </section>
+        <section id="statistics">
+            <h2>Estadísticas de Equipos</h2>
+            <table id="team-stats-table">
+                <thead>
+                    <tr>
+                        <th>Equipo</th>
+                        <th id="team-goals-header">Goles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Equipo A</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Equipo B</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Equipo C</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Equipo D</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Estadísticas de Jugadores</h2>
+            <table id="player-stats-table">
+                <thead>
+                    <tr>
+                        <th>Jugador</th>
+                        <th>Equipo</th>
+                        <th id="player-goals-header">Goles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jugador 1</td>
+                        <td>Equipo A</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Jugador 2</td>
+                        <td>Equipo B</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Jugador 3</td>
+                        <td>Equipo C</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Jugador 4</td>
+                        <td>Equipo D</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="add-player-form">
+                <h3>Agregar Nuevo Jugador</h3>
+                <form id="new-player-form">
+                    <label for="player-name">Nombre del Jugador:</label>
+                    <input type="text" id="player-name" required>
+                    <label for="player-team">Equipo:</label>
+                    <input type="text" id="player-team" required>
+                    <label for="player-goals">Goles:</label>
+                    <input type="number" id="player-goals" required>
+                    <button type="submit">Agregar Jugador</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Torneo de Fútbol Escolar. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2, p {
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#info {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bracket {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bracket-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.round-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.match {
+    background-color: #ecf0f1;
+    margin: 10px auto; /* Centrado horizontalmente */
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    width: 90%; /* Ancho del 90% para centrar horizontalmente */
+    max-width: 400px; /* Ancho máximo */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#champion {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#champion-team img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#champion-team {
+    font-size: 110%;
+    font-weight: 900;
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+
+
+
+#statistics {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+#team-stats-table, #player-stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#team-stats-table th, #team-stats-table td,
+#player-stats-table th, #player-stats-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#team-stats-table th, #player-stats-table th {
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+}
+
+#add-player-form {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#add-player-form h3 {
+    margin-top: 0;
+}
+
+#add-player-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#add-player-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+#add-player-form button {
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#add-player-form button:hover {
+    background-color: #34495e;
+}
